@@ -8,8 +8,8 @@ const assertEqual = function(actual, expected) {
 };
 
 // FUNCTION HEAD RETURNS THE FIRST ELEMENT OF AN ARRAY
-const head = function(array) {
-  return array[0];
+const tail = function(array) {
+  return array.slice(1);
 };
 
 // TEST CODE
@@ -18,5 +18,15 @@ assertEqual(1, 1);
 assertEqual("Lighthouse", "Lighthouse");
 assertEqual(2, 5);
 
-assertEqual(head([5,6,7]), 5);
-assertEqual(head(["Hello", "Lighthouse", "Labs"]), "Hello");
+
+
+const words = ["Yo Yo", "Lighthouse", "Labs"];
+tail(words); // no need to capture the return value since we are not checking it
+assertEqual(words.length, 3); // original array should still have 3 elements!
+
+assertEqual(tail(["Hello", "World"]), "World");
+
+let testArray = tail(words);
+for (let x = 0; x < testArray.length; x++) {
+  assertEqual(testArray[x], words[x + 1]);
+}
