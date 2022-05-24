@@ -1,4 +1,5 @@
 const countLetters = function(string) {
+  string = string.split(' ').join('');
   outputObject = {};
   for (let char in string) {
     if (outputObject[string[char]]) {
@@ -18,4 +19,4 @@ const assertEqual = function(actual, expected) {
   }
 };
 
-console.log(countLetters("lighthouse labs in the house"));
+console.log(countLetters("hello hello hello hello"));
