@@ -1,7 +1,3 @@
-// FUNCTION IMPLEMENTATION
-const eqArrays = require('./eqArrays');
-const assertArraysEqual = require('./assertArraysEqual.js');
-
 const middle = function(array) {
   let newArray = [];
   if (array.length <= 2) {
