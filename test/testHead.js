@@ -1,6 +1,4 @@
-const assertEqual = require('../assertEqual.js');
 const head = require('../head.js');
-
 const assert = require('chai').assert;
 
 describe("#head", () => {
