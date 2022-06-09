@@ -9,14 +9,7 @@ const countLetters = function(string) {
     }
   }
   return outputObject;
-}
-
-const assertEqual = function(actual, expected) {
-  if (actual === expected) {
-    console.log(`✅✅✅ Assertion Passed: ${actual} === ${expected}`);
-  } else {
-    console.log(`🛑🛑🛑 Assertion Failed: ${actual} !== ${expected}`);
-  }
 };
 
-console.log(countLetters("hello hello hello hello"));
+module.exports = countLetters;
+
