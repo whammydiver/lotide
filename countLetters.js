@@ -2,10 +2,11 @@ const countLetters = function(string) {
   string = string.split(' ').join('');
   outputObject = {};
   for (let char in string) {
-    if (outputObject[string[char]]) {
-      outputObject[string[char]] += 1;
+    const key = string[char];
+    if (outputObject[key]) {
+      outputObject[key] += 1;
     } else {
-      outputObject[string[char]] = 1;
+      outputObject[key] = 1;
     }
   }
   return outputObject;
