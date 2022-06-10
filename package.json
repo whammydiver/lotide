@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
-  "version": "1.0.0",
-  "description": "",
+  "name": "@whammydiver/lotide",
+  "version": "1.0.1",
+  "description": "non-production code. Educational exercises written as a lodash clone as part of a Lighthouse Labs bootcamp.",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/whammydiver/lotide.git"
   },
-  "author": "",
+  "author": "Paul Taylor",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/whammydiver/lotide/issues"
