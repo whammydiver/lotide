@@ -1,6 +1,6 @@
 {
   "name": "@paultaylor/lotide",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "non-production code. Educational exercises written as a lodash clone as part of a Lighthouse Labs bootcamp.",
   "main": "assertArraysEqual.js",
   "directories": {
