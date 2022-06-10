@@ -17,27 +17,26 @@ const pigLatin = require('./pigLatin');
 const reverse = require('./reverse');
 const tail = require('./tail');
 const takeUntil = require('./takeUntil');
-const without = require('./require');
+const without = require('./without');
 
 module.exports = {
-  assertArraysEqual: assertArraysEqual,
-  assertEqual: assertEqual,
-  assertObjectEqual: assertObjectsEqual,
-  countLetters: countLetters,
-  countOnly: countOnly,
-  eqArrays: eqArrays,
-  eqObjects: eqObjects,
-  findKey: findKey,
-  findKeyByValue: findKeyByValue,
-  flatten: flatten,
-  head: head, 
-  letterPositions: letterPositions,
-  map: map,
-  middle: middle,
-  pigLatin: pigLatin,
-  reverse: reverse,
-  tail: tail, 
-  takeUntil: takeUntil,
-  without: without
-  
+  assertArraysEqual,
+  assertEqual,
+  assertObjectsEqual,
+  countLetters,
+  countOnly,
+  eqArrays,
+  eqObjects,
+  findKey,
+  findKeyByValue,
+  flatten,
+  head, 
+  letterPositions,
+  map,
+  middle,
+  pigLatin,
+  reverse,
+  tail, 
+  takeUntil,
+  without
 };
