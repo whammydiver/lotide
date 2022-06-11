@@ -5,4 +5,7 @@ const map = function(array, callback) {
   }
   return results;
 }
+
+// code provided by Compass
+
 module.exports = map;

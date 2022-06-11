@@ -4,6 +4,6 @@ const findKey = function(object, callback) {
       return x;
     }
   }
-}
+} // code provided by Compass
 
 module.exports = findKey;

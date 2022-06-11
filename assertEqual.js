@@ -6,4 +6,6 @@ const assertEqual = function(actual, expected) {
   }
 };
 
+//code provided by Compass
+
 module.exports = assertEqual;

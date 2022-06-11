@@ -7,5 +7,6 @@ const assertArraysEqual = function(array1, array2) {
     console.log("🛑🛑🛑 Assertion Failed: Arrays do NOT match.");
   }
 }
+// code provided by Compass
 
 module.exports = assertArraysEqual;
