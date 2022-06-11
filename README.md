@@ -38,7 +38,6 @@ The following functions are currently implemented:
 * `function10(letterPositions)`: from a string input, creates an object with the index locations of each occurrence of each letter in the string
 * `function11(map)`: expects an array and a callback function. Returns a new array based on the results of the callback function.
 * `function12(middle)`: given an array input, returns the middle item(s) by index (i.e. returnArray[1] of inputArray[0, 1, 2] or returnArray[1, 2] of inputArray[0, 1, 2, 3]) 
-* `function13(reverse)`: returns a reversed version of an input string
-* `function14(tail)`: input an array - returns an array without the original array index 0. (chops off the first element)
-* `function15(takeUntil)`: input an array and a stop trigger. reads through the input array, builds a return array of all values until finding the stop trigger. 
-* `function16(without)`: input 2 arrays. function returns the first array minus all matching element in the second array. 
+* `function13(tail)`: input an array - returns an array without the original array index 0. (chops off the first element)
+* `function14(takeUntil)`: input an array and a stop trigger. reads through the input array, builds a return array of all values until finding the stop trigger. 
+* `function15(without)`: input 2 arrays. function returns the first array minus all matching element in the second array. 
